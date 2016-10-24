@@ -12,32 +12,34 @@
   </head>
 <body>
 
-    <div class="navigation">
-      <nav class="navbar navbar-default">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Food, LLC</a>
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav visible-xs">
-            <li><a href="#" class="text-center">Chicken</a></li>
-            <li><a href="#" class="text-center">Beef</a></li>
-            <li><a href="#" class="text-center">Sushi</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <div class="navigation">
+    <nav class="navbar navbar-default">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chickenAnchor" class="text-center" data-toggle="collapse" data-target="#navbar-collapse-1">Chicken</a></li>
+          <li><a href="#beefAnchor" class="text-center" data-toggle="collapse" data-target="#navbar-collapse-1">Beef</a></li>
+          <li><a href="#sushiAnchor" class="text-center" data-toggle="collapse" data-target="#navbar-collapse-1">Sushi</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <h1 class="text-center">Our Menu</h1>
     <div class="row">
       <div class="content col-xs-12">
-        <h3>Chicken</h3>
+      <section>
+        <span class="anchor" id="chickenAnchor"></span>
+        <h3 id="chickenTitle">Chicken</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet sagittis mi. Phasellus fringilla, nisl dictum pellentesque euismod, diam justo elementum erat, ac consequat nulla leo at nunc. Quisque malesuada mattis purus, dictum laoreet magna volutpat ac. Vestibulum convallis fermentum ipsum. Duis bibendum quam sit amet arcu blandit placerat. Aliquam sed magna leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nisi justo, mattis porta nisi at, dapibus placerat elit. Fusce leo ex, pretium a volutpat sit amet, euismod nec magna. Aliquam erat volutpat. Praesent ullamcorper neque a ipsum congue, iaculis feugiat leo ultricies.
         </p>
@@ -47,12 +49,11 @@
         <p>
           Proin ac eros nec orci imperdiet iaculis non non nulla. Aenean sed nulla vel odio condimentum ullamcorper vel sollicitudin neque. Sed vel feugiat sapien, et lobortis mauris. In venenatis aliquet purus consectetur consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus cursus lacus, vel convallis orci rutrum non. Morbi condimentum ornare nulla ut ultrices.
         </p>
-        <p>
-          Maecenas id feugiat dolor. Nulla at rutrum eros, nec rhoncus justo. In semper est eu elementum ornare. Aliquam vitae scelerisque diam. Ut et faucibus risus. Ut scelerisque commodo malesuada. Aenean ullamcorper mi ut eros rhoncus, in luctus risus facilisis.
-        </p>
-        <p>
-          Proin sit amet massa vitae eros convallis tincidunt. Suspendisse tincidunt varius orci, quis molestie felis congue et. Fusce ut condimentum est. Morbi pretium felis quis lacus aliquet, vitae vehicula nisl mattis. Phasellus eget lacus bibendum, faucibus enim non, posuere nisi. Pellentesque tincidunt leo vitae lectus consectetur varius. Phasellus congue sagittis convallis. Nullam aliquam imperdiet lorem.
-        </p>
+        </section>
+        <hr class="sectionSeparator">
+        <section>
+        <span class="anchor" id="beefAnchor"></span>
+        <h3 id="beefTitle">Beef</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet sagittis mi. Phasellus fringilla, nisl dictum pellentesque euismod, diam justo elementum erat, ac consequat nulla leo at nunc. Quisque malesuada mattis purus, dictum laoreet magna volutpat ac. Vestibulum convallis fermentum ipsum. Duis bibendum quam sit amet arcu blandit placerat. Aliquam sed magna leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nisi justo, mattis porta nisi at, dapibus placerat elit. Fusce leo ex, pretium a volutpat sit amet, euismod nec magna. Aliquam erat volutpat. Praesent ullamcorper neque a ipsum congue, iaculis feugiat leo ultricies.
         </p>
@@ -62,12 +63,21 @@
         <p>
           Proin ac eros nec orci imperdiet iaculis non non nulla. Aenean sed nulla vel odio condimentum ullamcorper vel sollicitudin neque. Sed vel feugiat sapien, et lobortis mauris. In venenatis aliquet purus consectetur consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus cursus lacus, vel convallis orci rutrum non. Morbi condimentum ornare nulla ut ultrices.
         </p>
+        </section>
+        <hr class="sectionSeparator">
+        <section>
+        <span class="anchor" id="sushiAnchor"></span>
+        <h3 id="sushiTitle">Sushi</h3>
         <p>
-          Maecenas id feugiat dolor. Nulla at rutrum eros, nec rhoncus justo. In semper est eu elementum ornare. Aliquam vitae scelerisque diam. Ut et faucibus risus. Ut scelerisque commodo malesuada. Aenean ullamcorper mi ut eros rhoncus, in luctus risus facilisis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet sagittis mi. Phasellus fringilla, nisl dictum pellentesque euismod, diam justo elementum erat, ac consequat nulla leo at nunc. Quisque malesuada mattis purus, dictum laoreet magna volutpat ac. Vestibulum convallis fermentum ipsum. Duis bibendum quam sit amet arcu blandit placerat. Aliquam sed magna leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nisi justo, mattis porta nisi at, dapibus placerat elit. Fusce leo ex, pretium a volutpat sit amet, euismod nec magna. Aliquam erat volutpat. Praesent ullamcorper neque a ipsum congue, iaculis feugiat leo ultricies.
         </p>
         <p>
-          Proin sit amet massa vitae eros convallis tincidunt. Suspendisse tincidunt varius orci, quis molestie felis congue et. Fusce ut condimentum est. Morbi pretium felis quis lacus aliquet, vitae vehicula nisl mattis. Phasellus eget lacus bibendum, faucibus enim non, posuere nisi. Pellentesque tincidunt leo vitae lectus consectetur varius. Phasellus congue sagittis convallis. Nullam aliquam imperdiet lorem.
+          Fusce efficitur finibus vulputate. Proin ultrices fringilla ipsum, eu hendrerit nisi mattis ut. Sed euismod, urna a ultricies finibus, odio enim mattis risus, sit amet tristique est lectus sit amet mauris. Mauris porttitor lectus non nisi sagittis, ut commodo ligula volutpat. Etiam ut lorem nec enim bibendum varius. Vestibulum sodales quis quam eget vehicula. Donec tristique elit a sollicitudin malesuada. Curabitur id dolor in arcu auctor mollis eget commodo lorem. Suspendisse potenti. Integer ullamcorper sapien placerat dictum rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
+        <p>
+          Proin ac eros nec orci imperdiet iaculis non non nulla. Aenean sed nulla vel odio condimentum ullamcorper vel sollicitudin neque. Sed vel feugiat sapien, et lobortis mauris. In venenatis aliquet purus consectetur consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus cursus lacus, vel convallis orci rutrum non. Morbi condimentum ornare nulla ut ultrices.
+        </p>
+        </section>
       </div>
     </div>
   </div>

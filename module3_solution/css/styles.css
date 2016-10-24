@@ -2,10 +2,17 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 .container {
-	margin-top: 50pt;
+	margin-top: 90px;
+	position: relative;
+}
+.container h1 {
+	color: #564660;
 }
 .content {
 	background-color: #564660;
+}
+.content section {
+	margin-bottom: 40pt;
 }
 .content p {
 	font-size: 20px;
@@ -15,6 +22,10 @@ body {
 .content h3 {
 	color: #eee;
 	text-align: center;
+}
+.content .sectionSeparator {
+	border-color: #aaa;
+	width: 80%;
 }
 .navigation {
 	position: fixed;
@@ -30,4 +41,10 @@ body {
 .navbar-default .navbar-brand {
   color: #564660;
   font-size: 28px;
+}
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
 }
